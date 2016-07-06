@@ -63,7 +63,9 @@ public class SetupActivity extends AppCompatActivity {
 
         try {
             TextView textFieldIp = (TextView)findViewById( R.id.textFieldIp );
-            ipAddress = (textFieldIp == null) ? "192.168.43.75" : textFieldIp.getText().toString();
+            ipAddress = textFieldIp.getText().toString();
+
+            if ( ipAddress == null || ipAddress.length() <= 0 ) throw new NullPointerException( "Please enter an IP address" );
 
         } catch ( NullPointerException ex ) {
             Toast.makeText( this, ex.getMessage(), Toast.LENGTH_SHORT ).show();
