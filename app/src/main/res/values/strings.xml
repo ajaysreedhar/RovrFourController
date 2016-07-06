@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RovrFour</string>
+    <string name="ip_address">IP Address</string>
+    <string name="port_number">Port Number</string>
+    <string name="connect">Connect</string>
+    <string name="move_forward">Move Forward</string>
+    <string name="move_backward">Move Backward</string>
+    <string name="turn_left">Turn Left</string>
+    <string name="turn_right">Turn Right</string>
+    <string name="copyright">Copyright &#169; 2016 Ajay Sreedhar</string>
+    <string name="disconnect">Disconnect</string>
+</resources>
