@@ -1,0 +1,37 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textColorPrimary">@color/foregroundPrimary</item>
+        <item name="android:textColorHint">@color/hintPrimary</item>
+        <item name="android:textViewStyle">@style/AppLabelSmall</item>
+    </style>
+
+    <style name="AppActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:textColor">@color/foregroundPrimary</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppPrimaryButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:textColor">@color/foregroundPrimary</item>
+        <item name="android:background">@drawable/button_bg_default</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="AppTextEntry" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textColorHint">@color/hintPrimary</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:paddingRight">6dp</item>
+    </style>
+
+    <style name="AppLabelSmall">
+        <item name="android:background">@color/backgroundTransparent</item>
+        <item name="android:textColor">@color/hintPrimary</item>
+    </style>
+</resources>
