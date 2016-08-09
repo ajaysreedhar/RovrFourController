@@ -1,10 +1,9 @@
 # <img src="docs/icon.png" width="32px"> RovrFour
 
+> An Android app for operating the Arduino based mini rover RF1 over WiFi.
+Read more about [RovrFour RF1 project](https://hackaday.io/project/13059-rovrfour-rf1).
 
-An Android app for operating the Arduino based mini rover RF1 over WiFi.
-Read more about [RovrFour RF1 project](https://hackaday.io/project/13059-rovrfour-rf1)
-
-
+[![](docs/screenshot.png)](https://hackaday.io/project/13059-rovrfour-rf1)
 
 ### License
 RovrFour is released under MIT license.
