@@ -1,7 +1,10 @@
-# RovrFour
+# <img src="docs/icon.png" width="32px"> RovrFour
 
 
-RovrFour is an Android app for controlling movements of the Arduino based mini rover RF-1.
+An Android app for operating the Arduino based mini rover RF1 over WiFi.
+Read more about [RovrFour RF1 project](https://hackaday.io/project/13059-rovrfour-rf1)
+
+
 
 ### License
 RovrFour is released under MIT license.
